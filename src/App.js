@@ -1,11 +1,11 @@
 
 import './App.css';
+import Price_Table from './components/Pricing_Table/Pricing_Table';
 
 function App() {
   return (
-    <div className="App">
-     <h1> Stand by Project.</h1>
-     <h3> We are learners</h3>
+    <div className="App">     
+     <Price_Table/>
     </div>
   );
 }
